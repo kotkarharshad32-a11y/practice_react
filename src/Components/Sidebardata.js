@@ -41,7 +41,7 @@ export const Sidebardata = [
                 link: "/report/posts"
             },
             {
-                title:"Report",
+                title:" DailyReport",
                 icon:<ReportIcon/>,
                 link:"/report/report"
 
