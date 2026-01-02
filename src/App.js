@@ -1,0 +1,38 @@
+import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Dashboard from './Components/dashboard/Dashboard';
+import About from './Components/dashboard/about/About';
+import Carrier from './Components/dashboard/carrier/carrier';
+import Error from './Components/dashboard/error/error';
+import Todos from './Components/dashboard/report/todos/Todos';
+import Posts from './Components/dashboard/report/posts/Posts';
+import Sidebar from './Components/Sidebar';
+
+
+
+function App() {
+  return (
+    <BrowserRouter>
+    <Sidebar/>
+
+
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="about" element={<About />} />
+        <Route path ="carrier" element={<Carrier/>}/>
+        <Route path="/report/todos" element={<Todos />} />
+        <Route path="/report/posts" element={<Posts />} />
+
+        <Route path="*" element={<Error />} />
+
+
+      </Routes>
+
+    </BrowserRouter>
+
+
+  );
+
+}
+
+export default App;
