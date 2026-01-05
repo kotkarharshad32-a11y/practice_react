@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "station_name": "Thane"
+    },
+    {
+        "id": 2,
+        "station_name": "Mulund"
+    },
+    {
+        "id": 3,
+        "station_name": "Mumbai"
+    },
+    {
+        "id": 4,
+        "station_name": "Panvel"
+    },
+    {
+        "id": 5,
+        "station_name": "Bhandup"
+    },
+    {
+        "id": 6,
+        "station_name": "Airoli"
+    },
+    {
+        "id": 7,
+        "station_name": "Mansarovar"
+    },
+    {
+        "id": 8,
+        "station_name": "Digha"
+    },
+    {
+        "id": 9,
+        "station_name": "Roha"
+    },
+    {
+        "id": 10,
+        "station_name": "Badlapur"
+    },
+    {
+        "id": 11,
+        "station_name": "Bhivandi"
+    },
+    {
+        "id": 12,
+        "station_name": "Chembur"
+    },
+    {
+        "id": 13,
+        "station_name": "Dadar"
+    },
+    {
+        "id": 14,
+        "station_name": "Dahisar"
+    },
+    {
+        "id": 15,
+        "station_name": "Lalbaug"
+    },
+    {
+        "id": 16,
+        "station_name": "Bandra"
+    }
+
+]
