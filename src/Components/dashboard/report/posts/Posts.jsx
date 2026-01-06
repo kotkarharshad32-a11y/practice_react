@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Header from '../../../header'
-import "../reports.css"
+import "./posts.css"
 const Posts = () => {
 
     const [posts, setPosts] = useState([]);
@@ -23,7 +23,7 @@ const Posts = () => {
                     <div className='topbar'>
 
                     </div>
-                    <div className='mainDiv'>
+                    <div className='postMainDiv'>
                         {posts.map((post) => {
                             return <div key={post.id} style={{ "paddingBottom": "10px" }}> <h2> {post.title}</h2> <p>{post.body}</p> </div>
                         })}

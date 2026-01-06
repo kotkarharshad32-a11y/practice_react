@@ -23,7 +23,6 @@ function App() {
         <Route path ="carrier" element={<Carrier/>}/>
         <Route path="/report/todos" element={<Todos />} />
         <Route path="/report/posts" element={<Posts />} />
-
         <Route path="/report/lists" element={<Lists />} />
 
         <Route path="*" element={<Error />} />

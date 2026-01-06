@@ -1,67 +1,102 @@
 [
     {
         "id": 1,
-        "station_name": "Thane"
+        "station_name": "Thane",
+        "logo": "thane.png"
     },
     {
         "id": 2,
-        "station_name": "Mulund"
+        "station_name": "Mulund",
+        "logo": "mulund.png"
     },
     {
         "id": 3,
-        "station_name": "Mumbai"
+        "station_name": "Mumbai",
+        "logo": "mumbai.png"
     },
     {
         "id": 4,
-        "station_name": "Panvel"
+        "station_name": "Panvel",
+        "logo": "panvel.png"
     },
     {
         "id": 5,
-        "station_name": "Bhandup"
+        "station_name": "Bhandup",
+        "logo": "bhandup.png"
     },
     {
         "id": 6,
-        "station_name": "Airoli"
+        "station_name": "Airoli",
+        "logo": "airoli.png"
     },
     {
         "id": 7,
-        "station_name": "Mansarovar"
+        "station_name": "Mansarovar",
+        "logo": "mansarovar.png"
     },
     {
         "id": 8,
-        "station_name": "Digha"
+        "station_name": "Digha",
+        "logo": "digha.png"
     },
     {
         "id": 9,
-        "station_name": "Roha"
+        "station_name": "Roha",
+        "logo": "roha.png"
     },
     {
         "id": 10,
-        "station_name": "Badlapur"
+        "station_name": "Badlapur",
+        "logo": "badlapur.png"
     },
     {
         "id": 11,
-        "station_name": "Bhivandi"
+        "station_name": "Bhivandi",
+        "logo": "bhivandi.png"
     },
     {
         "id": 12,
-        "station_name": "Chembur"
+        "station_name": "Chembur",
+        "logo": "chembur.png"
     },
     {
         "id": 13,
-        "station_name": "Dadar"
+        "station_name": "Dadar",
+        "logo": "dadar.png"
     },
     {
         "id": 14,
-        "station_name": "Dahisar"
+        "station_name": "Dahisar",
+        "logo": "dahisar.png"
     },
     {
         "id": 15,
-        "station_name": "Lalbaug"
+        "station_name": "Lalbaug",
+        "logo": "lalbaug.png"
     },
     {
         "id": 16,
-        "station_name": "Bandra"
+        "station_name": "Bandra",
+        "logo": "bandra.png"
+    },
+    {
+        "id": 17,
+        "station_name": "CSMT",
+        "logo": "csmt.png"
+    },
+    {
+        "id": 18,
+        "station_name": "Borivali",
+        "logo": "borivali.png"
+    },
+    {
+        "id": 19,
+        "station_name": "Jogeshwari",
+        "logo": "jogishwari.png"
+    },
+    {
+        "id": 20,
+        "station_name": "Kalyan",
+        "logo": "kalyan.png"
     }
-
 ]

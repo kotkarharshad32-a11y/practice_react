@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import "../reports.css"
 import Header from '../../../header'
 
 const Todos = () => {
