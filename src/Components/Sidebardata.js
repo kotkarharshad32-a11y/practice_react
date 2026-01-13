@@ -45,7 +45,12 @@ export const Sidebardata = [
                 icon:<ReportIcon/>,
                 link:"/report/lists "
 
-            },      
+            }, 
+            {
+                title:"Tables",
+                icon:<ReportIcon/>,
+                link:"/report/tables"
+            }     
             
         ]
     },

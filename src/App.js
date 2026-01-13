@@ -8,6 +8,7 @@ import Todos from './Components/dashboard/report/todos/Todos';
 import Posts from './Components/dashboard/report/posts/Posts';
 import Sidebar from './Components/Sidebar';
 import Lists from './Components/dashboard/report/Lists/Lists';
+import Tables from './Components/dashboard/report/Tables/Tables';
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/report/todos" element={<Todos />} />
         <Route path="/report/posts" element={<Posts />} />
         <Route path="/report/lists" element={<Lists />} />
+        <Route path="/report/tables" element ={<Tables/>}/>
 
         <Route path="*" element={<Error />} />
 

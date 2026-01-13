@@ -22,7 +22,7 @@ const Todos = () => {
     <div className="App" >
       <Header />
       <div style={{ "display": "flex", "width": "100%", "height": "100%" }} >
-        <div className='carrierBox'>
+        <div className='carrierBox'>  
           <div className='topbar'>
 
           </div>
@@ -35,7 +35,6 @@ const Todos = () => {
           <button onClick={() => {
             setShouldRefresh(!shouldRefresh);
           }} >Refresh</button>
-
 
         </div>
       </div>

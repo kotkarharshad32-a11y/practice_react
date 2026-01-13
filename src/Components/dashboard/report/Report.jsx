@@ -4,10 +4,10 @@ import Sidebar from '../../Sidebar';
 import Header from '../../header';
 
 const Report = () => {
-  const { id } = useParams();
+    const { id } = useParams();
 
-  return (
-      <div className="App" >
+    return (
+        <div className="App" >
             <Header />
             <div style={{ "display": "flex", "width": "100%", "height": "100%" }} >
                 <Sidebar />
@@ -16,16 +16,15 @@ const Report = () => {
 
                     </div>
                     <div className='mainDiv'>
-                       {id}
+                        {id}
                     </div>
 
-                    
-
+               
                 </div>
             </div>
 
         </div>
-  )
+    )
 }
 
 export default Report

@@ -31,7 +31,8 @@ const Error = () => {
                 </div>
             </div>
 
-        </div>)
+        </div>
+    )
 }
 
 export default Error

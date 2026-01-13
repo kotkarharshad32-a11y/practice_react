@@ -1,0 +1,107 @@
+/* Page container */
+.fare-container {
+  background: #ffffff;
+  padding: 24px;
+  margin: 30px 40px 30px 260px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Title */
+.fare-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 16px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/* Table */
+.fare-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 14px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* Header */
+.fare-table thead th {
+  position: sticky;
+  top: 0;
+  background: #f1f5f9;
+  color: #0f172a;
+  font-weight: 600;
+  padding: 14px;
+  border-bottom: 2px solid #e2e8f0;
+  white-space: nowrap;
+  z-index: 2;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* Sticky first column */
+.fare-table thead th:first-child,
+.fare-table tbody td:first-child {
+  position: sticky;
+  left: 0;                 /* relative to wrapper now */
+  background: #f8fafc;
+  z-index: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large
+
+}
+
+
+
+/* Body cells */
+.fare-table thead,
+.fare-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium
+
+
+}
+
+/* Row hover */
+.fare-table tbody tr:hover {
+  background-color: #c7d8e9;
+}
+
+/* Fare input */
+.fare-input {
+  width: 56px;
+  padding: 6px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  text-align: center;
+  background: #ffffff;
+  font-size: 20px;
+  gap: 5%;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.fare-input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+/* Disable diagonal (optional future) */
+.fare-input[readonly] {
+  background: #f8fafc;
+}
+
+.fare-table-wrapper {
+  overflow-x: auto;
+  max-width: calc(100vw - 260px); /* sidebar width */
+  position: relative;
+}
+

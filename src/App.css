@@ -12,6 +12,7 @@
 }
 
 .header {
+justify-content: space-between;
   position: sticky;
   height: 60px;
   border-bottom: 2px solid black;
@@ -19,6 +20,10 @@
   top: 0%;
   left: 0%;
   background-color: white;
+  z-index: 5; 
+}
+.header2 {
+  position: static;
 }
 
 .header .row {
@@ -43,6 +48,7 @@ body {
   top: 60PX;
   left: 0%;
   overflow: auto;
+  z-index: 5;
 }
 
 .sidebarlist {
@@ -91,10 +97,14 @@ body {
 
 .spot_logo {
   width: 150px;
-  padding-top: 10%;
-
+  padding-top: .5%;
 }
 
+.upmrc_logo {
+  height:30px;
+  width: 50px;
+  padding-top: 1%;
+}
 
 .main_image {
   margin-left: 220px;
